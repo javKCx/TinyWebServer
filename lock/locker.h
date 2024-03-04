@@ -1,9 +1,9 @@
 #ifndef LOCKER_H
 #define LOCKER_H
 
-#include <exception>
-#include <pthread.h>
-#include <semaphore.h>
+#include <exception>//异常处理机制
+#include <pthread.h>//unix线程库
+#include <semaphore.h>//信号量机制
 
 class sem
 {
